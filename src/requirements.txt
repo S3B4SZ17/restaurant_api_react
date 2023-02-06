@@ -1,0 +1,10 @@
+fastapi
+psycopg2
+python-multipart
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]
+social-auth-core[openidconnect]
+uvicorn
+pyyaml>=5.4
+sqlalchemy
+sqlmodel

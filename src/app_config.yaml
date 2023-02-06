@@ -1,0 +1,14 @@
+---
+practica_01:
+  host: "0.0.0.0"
+  port: 8000
+
+auth:
+  secret_key: !env SECRET_KEY
+
+postgres:
+  hostname: postgres
+  port: "5432"
+  user: postgres
+  password: !env PSGL_PASSWORD
+  database: practica_01
